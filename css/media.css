@@ -1,0 +1,48 @@
+body {
+  background-color: #36393e;
+  color: #c4c4c4;
+  overflow-x: hidden;
+}
+
+main {
+  margin-left: 200px;
+  padding: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+}
+
+h1 {
+  margin-bottom: 1em;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: -5em;
+}
+.mediagrid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-column-gap: 1em;
+  grid-row-gap: 3em;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.mediagrid h2 {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+.mediacell {
+  align-self: right;
+  justify-self: right;
+}
+.mediatext {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  border-top: 4px solid rgb(255, 255, 255);
+  opacity: 50%;
+}
+.mediatext:hover {
+  opacity: 100%;
+  -webkit-transition: opacity 0.5s ease;
+}
